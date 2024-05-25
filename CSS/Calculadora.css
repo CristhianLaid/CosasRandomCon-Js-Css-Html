@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(218, 218, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Calculadora{
+    width: 400px;
+    background-color: rgba(218, 208, 179, 0.726);
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.Calculadora .Calculadora1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Calculadora .Calculadora1 input{
+    height: 50px;
+    width: 370px;
+    margin-inline:10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+
+.Calculadora .botones{
+   text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Calculadora .botones button{
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style:italic;
+}
+
+.Calculadora .botones .led{
+    background-color: rgb(88, 88, 238);
+}
+
+.Calculadora .botones .led:hover{
+    background-color: rgb(26, 26, 189);
+    font-weight:bold;
+    border-right: 5px rgb(150, 121, 231) ridge;
+    border-bottom: 5px rgb(140, 120, 226) ridge;
+}
+
+.Calculadora .botones .led1{
+    background-color: rgb(206, 135, 135);
+}
+
+.Calculadora .botones .led1:hover{
+    background-color:  rgb(238, 94, 94);
+    font-weight:bold;
+    border-right: 5px rgb(240, 163, 195) ridge;
+    border-bottom: 5px rgb(231, 158, 195) ridge;
+}
+
+.Calculadora .botones .igual{
+    background-color: rgb(206, 135, 135);
+}
+
+.Calculadora .botones .igual:hover{
+    background-color:  rgb(238, 94, 94);
+    font-weight:bold;
+    border-right: 5px rgb(240, 163, 195) ridge;
+    border-bottom: 5px rgb(231, 158, 195) ridge;
+}
+
+
+.Calculadora .botones .mas{
+    background-color: aliceblue;
+    width: 100px;
+}
+
+
+.Calculadora .botones .mas1{
+    background-color: aliceblue;
+}
+
+.Calculadora .botones .mas1:hover{
+    background-color: rgb(116, 182, 240);
+}
+
+
+.Calculadora .botones .solo{
+    background-color: rgb(88, 88, 238);
+}
+
+.Calculadora .botones .solo:hover{
+    background-color: rgb(26, 26, 189);
+    font-weight:bold;
+    border-right: 5px rgb(150, 121, 231) ridge;
+    border-bottom: 5px rgb(140, 120, 226) ridge;
+}
+
+.Calculadora .botones .mas:hover{
+    background-color: rgb(116, 182, 240);
+}
+
+.disable{
+    display: none;
+}
+
+
+
+.Calculadora .botones .gray:hover{
+    background-color:  rgb(207, 205, 205);
+    font-weight:bold;
+    border-right: 5px darkslategray ridge;
+    border-bottom: 5px darkslategray ridge;
+}
+.Calculadora .botones .solo{
+    width: 100px;
+}
+
+
+

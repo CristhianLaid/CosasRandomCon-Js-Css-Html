@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(9, 90, 50, 0.678);
+}
+
+header {
+    background-color: rgb(26, 110, 26);
+    display: flex;
+    max-height: 100px;
+    height: 200px;
+    border-bottom: 7px solid rgb(23, 70, 11);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 41, 25);
+}
+
+.resultado {
+    display: flex;
+    height: 100px;
+    margin-inline: 10px;
+    margin-block-start: 5px;
+    margin-block-end: 3px;
+    align-items: center;
+    border: 5px groove rgb(78, 151, 78);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(208, 223, 181);
+}
+
+.resultado .resultado1 {
+    margin-left: 10px;
+}
+
+.fondo {
+    display: flex;
+    margin-block-end: 10px;
+    position: relative;
+    margin-inline: 10px;
+    background-color: aliceblue;
+    height: 500px;
+    background-color: rgb(208, 223, 181);
+    border: 3px solid rgb(13, 56, 13);
+    border-radius: 10px;
+}
+
+.fondo .inicio {
+    background-color: brown;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 3px solid rgb(157, 216, 157);
+    border-radius: 10px;
+}
+
+.fondo .c {
+    display: grid;
+    grid-template-areas:
+        "jugador puntos pc"
+        "jugador puntos pc";
+    margin: 10px;
+    border: 2px solid;
+    width: 100%;
+}
+
+.fondo .c .jugador {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-area: jugador;
+    background-color: bisque;
+}
+
+.fondo .c .pc {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-area: pc;
+    background-color: aliceblue;
+}
+
+.fondo .c .puntos {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-area: puntos;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fondo .c .puntos span {
+    display: flex;
+    justify-content: center;
+}
+
+.disable {
+    display: none;
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    max-height: 100px;
+    height: 50px;
+    background-color: rgb(15, 15, 15);
+}

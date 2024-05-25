@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/b5/2c/ceb52c39-8f9c-46bc-1fa4-b0c07b911846/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/papel.css">
+    <title>Juego del pierda, papel o tijera</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Juego piedra, papel o tijera</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="resultado" id="resultado">
+            <h2 class="resultado1">Primero en llegar a 3 gana.</h2>
+        </div>
+
+        <div class="fondo" id="inicio">
+            <button class="btn-inicio" id="btn-inicio">Iniciar</button>
+            <button class="btn-salir disable" id="btn-salir">Salir</button>
+            <div class="inicio">
+                <div class="c">
+                    <p class="jugador">Jugador</p>
+                    <p class="puntos">
+                        <span id="jugador">0</span>
+                        <span>-</span>
+                        <span id="Pc">0</span>
+                    </p>
+                    <p class="pc">Pc</p>
+                </div>
+                <div class="Elige-arma disable" id="Elige-arma">
+                    <h2>Elije tu arma</h2>
+                    <div class="armas">
+                        <button class="arma" id="Piedra">Piedra</button>
+                        <button class="arma" id="Papel">Papel</button>
+                        <button class="arma" id="Tijera">Tijera</button>
+                    </div>
+                </div>
+                <div class="mensaje disable">
+                    <p>Usaste <span class="eleccion" id="eleccion-jugador">Papel</span></p><br>
+                    y la computadora usó <span class="eleccion" id="eleccion-pc">Piedra</span>
+                    <p id="gana-punto">¡Ganaste un punto!</p>
+                </div>
+                <button class="reiniciar disable" id="reiniciar">reiniciar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="../JS/papel.js"></script>
+</body>
+
+</html>
+
+
